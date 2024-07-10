@@ -1,0 +1,80 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* WEBSITE DESIGN CODE */
+:root {
+  /* COLORS */
+  --dark-blue: #1f2937;
+  --light-blue: #3882f6;
+  --hero-main-text: #f9faf8;
+  --hero-secondary-text: #e5e7eb;
+
+  /* FONTS SIZES */
+  --fontsize-hero-main: 48px;
+  --fontsize-hero-secondary: 18px;
+  --fontsize-header-logo: 24px;
+  --fontsize-information-header: 36px;
+}
+
+/* HERO */
+.header {
+}
+
+.header__logo {
+}
+
+.header__nav {
+}
+
+.header__nav ul {
+}
+
+.header__nav li {
+}
+
+.header__nav a {
+}
