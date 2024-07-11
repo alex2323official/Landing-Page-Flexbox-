@@ -187,3 +187,33 @@ h6 {
   text-align: center;
   margin-top: 18px;
 }
+
+/* SECTION: QUOTE */
+.quote {
+  background-color: var(--hero-secondary-text);
+  padding: 96px 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote__blockquote {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote__text {
+  font-size: var(--fontsize-information-header);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote__footer {
+  font-weight: 900;
+  font-size: var(--fontsize-header-logo);
+  align-self: flex-end;
+}
