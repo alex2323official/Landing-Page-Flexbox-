@@ -144,3 +144,46 @@ h6 {
 .hero__img {
   max-width: 30vw;
 }
+
+/* SECTION: INFORMATIONS */
+.informations {
+  background-color: var(--hero-main-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 15vw;
+  margin-bottom: 96px;
+}
+
+.informations__h2 {
+  font-size: var(--fontsize-information-header);
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin: 48px 0;
+}
+
+.informations__img-container {
+  display: flex;
+  gap: 96px;
+}
+
+.informations__img-single-container {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.informations__img {
+  border: solid var(--light-blue) 3px;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.informations__img-undertext {
+  text-align: center;
+  margin-top: 18px;
+}
